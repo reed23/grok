@@ -1,0 +1,351 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 4, ../scss/style.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 6, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 10, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/***** SITE STYLES *************/
+/**********************************/
+/* line 20, ../scss/style.scss */
+.register {
+  background-color: #ffab56;
+  color: white;
+  width: 200px;
+}
+
+/* line 30, ../scss/style.scss */
+.button1 {
+  display: inline-block;
+  width: 40%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #ffab56;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 42, ../scss/style.scss */
+.button1:hover {
+  background-color: #ffab56;
+  color: #000;
+}
+
+/* line 46, ../scss/style.scss */
+.button2 {
+  display: inline-block;
+  width: 40%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #ffab56;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  float: right;
+}
+
+/* line 59, ../scss/style.scss */
+.button2:hover {
+  background-color: #ffab56;
+  color: #000;
+}
+
+/* line 71, ../scss/style.scss */
+.textimg {
+  width: 42%;
+  margin-left: 500px;
+  margin-top: -300px;
+  position: center;
+}
+
+/* line 82, ../scss/style.scss */
+.wrapper header {
+  width: 100%;
+  background-color: #37bde8;
+  padding: 20px;
+}
+
+/* line 98, ../scss/style.scss */
+header img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  float: left;
+}
+/* line 104, ../scss/style.scss */
+header li {
+  width: 100%;
+  display: inline;
+  color: white;
+  list-style-type: none;
+  padding-right: 40px;
+  border-right: 1px solid #ffffff;
+}
+/* line 113, ../scss/style.scss */
+header ul {
+  float: right;
+  color: white;
+  margin-top: 25px;
+}
+/* line 119, ../scss/style.scss */
+header a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: montseratt;
+  border-right: white;
+  border-size: 5px;
+}
+
+/* line 134, ../scss/style.scss */
+.imgbox {
+  background-image: url(../img/grokpic.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0px;
+  width: 100%;
+  padding-top: 300px;
+  padding-bottom: 25px;
+}
+
+/* line 149, ../scss/style.scss */
+.signup {
+  background-color: #37bde8;
+  width: 100%;
+  margin-top: 25px;
+}
+/* line 154, ../scss/style.scss */
+.signup p {
+  float: left;
+  margin-right: 50px;
+}
+/* line 158, ../scss/style.scss */
+.signup form {
+  margin-top: 25px;
+}
+
+/* line 165, ../scss/style.scss */
+.container {
+  display: block;
+  padding: 20px;
+}
+/* line 170, ../scss/style.scss */
+.container img {
+  width: 40%;
+  float: left;
+}
+/* line 175, ../scss/style.scss */
+.container .div {
+  float: right;
+  width: 40%;
+}
+
+/* line 182, ../scss/style.scss */
+.sponsor {
+  width: 100;
+  display: block;
+  padding-bottom: 50px;
+}
+/* line 188, ../scss/style.scss */
+.sponsor img {
+  max-width: 25%;
+  margin-right: 50px;
+  line-height: normal;
+}
+
+/* line 195, ../scss/style.scss */
+.textimg p {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* line 201, ../scss/style.scss */
+.container div {
+  width: 50%;
+  float: right;
+}
+
+/* line 205, ../scss/style.scss */
+.container p {
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 50px;
+}
+
+/* line 211, ../scss/style.scss */
+.container h1 {
+  font-size: 32px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* line 217, ../scss/style.scss */
+.signup p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+}
+
+/* line 225, ../scss/style.scss */
+.signup input {
+  margin-right: 35px;
+}
+
+/* line 231, ../scss/style.scss */
+.chimp {
+  width: 25%;
+}
+
+/* line 234, ../scss/style.scss */
+.github {
+  width: 20%;
+}
+
+/* line 237, ../scss/style.scss */
+.imgdiv {
+  background-image: url(../img/grockclassroom.jpg);
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding-top: 300px;
+  padding-bottom: 25px;
+  float: right;
+  margin-right: 75px;
+}
+
+/* line 248, ../scss/style.scss */
+.textdiv {
+  width: 40%;
+  float: left;
+}
+
+/* line 252, ../scss/style.scss */
+.maindiv {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* line 259, ../scss/style.scss */
+.bodywrap {
+  width: 1500px;
+  background-image: url(../img/grok.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  margin-left: -100px;
+  padding-top: 400px;
+}
+
+/* line 276, ../scss/style.scss */
+.blue {
+  width: 75%;
+  padding: 20px;
+  background-color: #9bdef3;
+}
+
+/* line 284, ../scss/style.scss */
+.blue2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #9bdef3;
+  width: 75%;
+}
+
+/* line 291, ../scss/style.scss */
+.blue3 {
+  padding: 35px;
+  background-color: #9bdef3;
+}
+
+/* line 298, ../scss/style.scss */
+.blue p {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+/* line 303, ../scss/style.scss */
+.tg-wrap {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+/* line 308, ../scss/style.scss */
+.whitediv {
+  background-color: white;
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -400px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* line 332, ../scss/style.scss */
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 333, ../scss/style.scss */
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 100px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+/* line 334, ../scss/style.scss */
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+/* line 335, ../scss/style.scss */
+.tg .tg-yw4l {
+  vertical-align: top;
+}
+
+/* line 337, ../scss/style.scss */
+footer {
+  width: 100%;
+  background-color: #37bde8;
+  padding: 40px;
+}
+/* line 342, ../scss/style.scss */
+footer img {
+  width: 200px;
+  height: 200px;
+  margin-right: 200px;
+  margin-left: 0px;
+  padding-right: 50px;
+  padding-left: 25px;
+}

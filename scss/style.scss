@@ -17,6 +17,343 @@
 
 
 
+.register{
+   background-color: #ffab56;
+  color: white;
+  width: 200px;
+
+}
+
+
+
+
+.button1{  
+            
+            display: inline-block;
+  width: 40%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #ffab56;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+        }
+
+.button1:hover{
+    background-color: #ffab56;
+  color: #000;
+}
+.button2{  
+            
+            display: inline-block;
+  width: 40%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #ffab56;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  float: right;
+        }
+
+.button2:hover{
+    background-color: #ffab56;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+.textimg{
+    width: 42%;
+    margin-left:500px;
+    margin-top: -300px;
+    position: center;
+
+}
+
+
+.wrapper{
+
+	header{
+		width: 100%;
+		background-color:#37bde8;
+        padding: 20px;
+	}
+
+	
+
+
+
+
+  
+    } //end of header 
+
+
+    header{
+    	img{
+    		width: 100px;
+            height: 100px;
+    		margin-left: 100px;
+            float: left;
+    	}
+    	li{
+    	 width: 100%;
+    	 display: inline;
+         color: white;
+         list-style-type:none;
+         padding-right:40px;
+         border-right: 1px solid #ffffff;
+
+    	}
+    	ul{
+    		float: right;
+    		color: white;
+            margin-top: 25px;
+
+    	}
+        a{
+            color: white;
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: montseratt;
+            border-right: white;
+            border-size:5px;
+
+
+        }
+
+
+    } //end of header outside wrapper
+    
+    .imgbox{
+    	background-image:url(../img/grokpic.png);
+    	 background-repeat: no-repeat;
+         background-size: 100% 100%;
+         margin: 0px;
+         width: 100%;
+         padding-top: 300px;
+         padding-bottom: 25px;
+
+
+
+
+        
+    }
+
+    .signup{
+    	background-color:#37bde8;
+        width:100%;
+        margin-top: 25px;
+
+    	p{
+    		float: left;
+            margin-right: 50px;
+    	}
+        form{
+            margin-top: 25px;
+    		
+    	}
+
+    }
+
+.container{
+	display:block;
+	padding: 20px;
+
+
+	img{
+		width: 40%;
+		float: left;
+	}
+
+	.div{
+		float: right;
+		width: 40%;
+	}
+
+}
+
+.sponsor{
+	width:100;
+	display:block;
+    padding-bottom:50px;
+
+
+	img{
+		max-width: 25%;
+        margin-right: 50px;
+        line-height: normal;
+	}
+}
+
+.textimg p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container div{
+    width: 50%;
+    float: right;
+}
+.container p{
+    font-size:24px;
+     font-family: 'Josefin Sans', sans-serif;
+     line-height: 50px;
+
+}
+.container h1{
+    font-size: 32px;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.signup p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+}
+
+.signup input{
+    margin-right: 35px;
+}
+
+
+
+.chimp{
+    width: 25%;
+}
+.github{
+    width: 20%;
+}
+.imgdiv{
+ background-image:url(../img/grockclassroom.jpg);
+    width: 40%;
+    background-repeat: no-repeat;
+         background-size: 100% 100%;
+         margin: 0px;
+         padding-top: 300px;
+         padding-bottom: 25px;
+         float: right;
+         margin-right:75px;
+}
+.textdiv{
+    width: 40%;
+    float: left;
+}
+.maindiv{
+    background-color:white;
+    width: 100%;
+    padding:20px;
+
+
+}
+.bodywrap{
+    width: 1500px;
+    background-image:url(../img/grok.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+       //opacity: 0.1;
+     
+       height: 800px;
+      
+       margin-left: -100px;
+       padding-top:400px;
+     
+
+       
+}
+
+.blue{
+   
+    width: 75%;
+    padding:20px;
+ 
+   
+    background-color:#9bdef3
+}
+.blue2{
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color: #9bdef3;
+    width: 75%;
+}
+
+.blue3{
+    padding:35px;
+      background-color: #9bdef3;
+}
+.blue input{
+
+}
+.blue p{
+    display: inline-block;
+    margin-right: 75px;
+}
+//additional///
+.tg-wrap{
+    padding-bottom:200px;
+    padding-top: 200px;
+    padding-left:200px;
+}
+.whitediv{
+    background-color:white;
+
+    width: 50%;
+ 
+    margin-right: 0px;
+    margin-left: 250px;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top: -400px;
+    padding-left:25px;
+    padding-right:25px;
+
+
+
+    
+    
+
+   
+}
+
+
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 100px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+
+footer{
+	width:100%;
+	background-color:#37bde8;
+    padding: 40px;
+
+	img{
+		width: 200px;
+        height: 200px;
+        margin-right: 200px;
+        margin-left:0px;
+        padding-right:50px;
+        padding-left: 25px;
+	}
+
+}
+
+
+
+
+
 
 
 
