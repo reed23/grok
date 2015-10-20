@@ -14,6 +14,9 @@
 
 /***** SITE STYLES *************/
 /**********************************/
+.blue{
+  width: 500px;
+}
 
 
 
@@ -190,7 +193,7 @@
         margin-right: 50px;
         line-height: normal;
 	}
-}
+
 
 .textimg p{
     color: white;
@@ -198,6 +201,11 @@
     font-weight: bold;
     font-size: 30px;
 }
+
+.textimg h1{
+  color: white;
+}
+
 .container div{
     width: 50%;
     float: right;
@@ -257,42 +265,70 @@
 
 }
 .bodywrap{
-    width: 1500px;
-    background-image:url(../img/grok.png);
+    width: 100%;
+    background-image:url(../img/grok2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+background-size: 100% 100%;
+
 
        //opacity: 0.1;
      
        height: 800px;
       
-       margin-left: -100px;
+       //margin-left: -100px;
        padding-top:400px;
      
 
        
 }
 
-.blue{
+.blue4{
    
     width: 75%;
-    padding:20px;
- 
+ padding-top:35px;
+
+    padding-bottom:35px;
+    
    
-    background-color:#9bdef3
+    background-color: #9bdef3;
+    
 }
+
 .blue2{
     margin-top:50px;
     margin-bottom:50px;
     background-color: #9bdef3;
     width: 75%;
 }
+.blue2 h1{
+  text-align: center;
 
+}
+
+
+
+
+.blue{
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color: #9bdef3;
+    width: 75%;
+    padding-bottom:25px;
+}
 .blue3{
-    padding:35px;
+    padding-top:35px;
+    
+    
       background-color: #9bdef3;
+     width: 75%;
+     margin-bottom: 50px;
+
+    
 }
 .blue input{
+  display: inline-block;
+  width: 20%;
+  margin-left: 10px;
 
 }
 .blue p{
@@ -308,25 +344,40 @@
 .whitediv{
     background-color:white;
 
-    width: 50%;
+    width: 75%;
  
-    margin-right: 0px;
-    margin-left: 250px;
+
     padding-top:50px;
-    padding-bottom:50px;
-    margin-top: -400px;
-    padding-left:25px;
-    padding-right:25px;
-
-
+    padding-bottom:150px;
+    margin-top: -300px;
+    margin-left: 250px;
+    padding-left:100px;
 
     
-    
+   }
 
-   
+   .whitediv input{
+    
+    clear: both;
+    }
+
+ .wrap{
+    width: 100%;
+    padding-left:50px;
+    clear: both;
+    //padding-right:50px;
+   }
+label{
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  font-size: 18px;
+  line-height: 20px;
 }
-
-
+label text{
+  text-align: right;
+  font-size:24px;
+}
 
 
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -350,7 +401,7 @@ footer{
 
 }
 
-
+}
 
 
 
