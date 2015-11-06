@@ -14,212 +14,366 @@
 
 /***** SITE STYLES *************/
 /**********************************/
-.blue{
-  width: 500px;
+
+@media screen and (min-width: 300px) and(max-width:600px) {
+    .imgbox{
+        display: none;
+    }
+
+}
+
+.container h1{
+    margin-top:0px;
+}
+
+header{
+    background-color:#37bde8;
+    padding: 20px;
+
+    img{
+        width: 20%;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    ul{
+        color: white;
+        display: block;
+        padding: 0;
+        margin: 25px 0 0 0;
+        list-style: none;
+    }
+    li{
+        display: block;
+        color: white;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 1.4em;
+        font-family: "Josefine sans-serif";
+        padding: 12px 20px;
+        text-align: center;
+    }
+}
+
+#registration_form{
+    
+    padding: 20px;
+
+    fieldset{
+        margin-top:50px;
+        margin-bottom:50px;
+        background-color: #9bdef3;
+        padding-bottom:25px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    input{
+        display: block;
+        width: 96%;
+        padding: 10px 2%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    label{
+        font-family: 'Josefin Sans', sans-serif;
+        display: block;
+        font-size: 1.2em;
+        line-height: 1.8;
+        display: block
+    }
+}
+
+
+
+img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+.container{
+  width: 100%;
+
+
+  p{
+    font-size: 18px;
+    font-family: "Josefine sans-serif";
+  }
+  div{
+    width: 95%;
+    float: none;
+    padding:10px;
+  }
+
+}
+
+.sponsor img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.textdiv{
+ padding-top:10px;
+ padding-bottom:10px;
+
+}
+
+
+.grok{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #37bde8;
+}
+
+.whitediv{
+
+    background-color: white;
+    width: 94%;
+    padding-top:10px;
+    margin: 0 auto;   
+}
+
+.sponsor h2{
+    text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+margin-bottom:50px;
+
+}
+
+
+
+.sponsor img{
+  width: 100%;
+  max-width: 300px;
+  margin-bottom:20px;
+}
+
+.extra{
+  display: none;
+}
+
+
+.textdiv{
+
+  h3{
+    display: none;
+
+  }
+
+  h2{
+    display: none;
+  }
+}
+
+.mobile{
+  width: 90%;
+  margin-left:20px;
+  max-width: 400px;
+}
+
+.maindiv{
+  display: block;
+  width: 90%;
+
+  p{
+    font-family: "Josefine sans-serif";
+    font-size: 18px;
+    width: 100%;
+  }
 }
 
 
 
 .register{
-   background-color: #ffab56;
-  color: white;
-  width: 200px;
+    background-color: #ffab56;
+    color: white;
+ 
 
 }
 
 
 
 
-.button1{  
-            
-            display: inline-block;
-  width: 40%;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #ffab56;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-        }
+.container img{
+    width: 90%;
+    display: block;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.word{
+ font-family: "Josefine sans-serif";
+
+ h1{
+     font-family: "Josefine sans-serif";
+      color:#37bde8;
+
+
+ }
+
+ p{
+     font-family: "Josefine sans-serif";
+
+ }
+
+
+}
+.whitediv h1{
+    font-family: "Josefine sans-serif";
+    color: white;
+
+
+}
+
+
+.imgdiv{
+    display: none;
+    background-image:url(../img/grockclassroom.jpg);
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding-top: 300px;
+    padding-bottom: 25px;
+    float: right;
+    margin-right:75px;
+}
+.schedule_text{
+
+    h1{
+     font-family: "Josefine sans-serif";
+     text-align: center;
+     color: #37bde8;
+
+    }
+    p{
+    font-family: "Josefine sans-serif";
+    line-height: 25px;
+
+
+    }
+}
+.sched{
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+ 
+}
+
+.mobile_schedule{
+    display: block;
+    width: 100%;
+    margin-left: 25px;
+
+    li{
+        list-style-type: none;
+        margin-bottom: 10px;
+        font-family: "Josefine sans-serif";
+        
+    }
+    a{
+    font-family: "Josefine sans-serif";
+
+    }
+    h1{
+    font-family: "Josefine sans-serif";
+     color:#37bde8;
+
+    }
+}
+
+
+.button1{          
+    display: inline-block;
+    width: 40%;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #ffab56;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
 
 .button1:hover{
     background-color: #ffab56;
-  color: #000;
+    color: #000;
 }
-.button2{  
-            
-            display: inline-block;
-  width: 40%;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #ffab56;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  float: right;
-        }
+
+.button2{   
+    display: inline-block;
+    width: 40%;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #ffab56;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    float: right;
+}
 
 .button2:hover{
     background-color: #ffab56;
-  color: #000;
+    color: #000;
 }
 
-
-
-
-
-
-
-
-.textimg{
-    width: 42%;
-    margin-left:500px;
-    margin-top: -300px;
-    position: center;
-
-}
-
-
-.wrapper{
-
-	header{
-		width: 100%;
-		background-color:#37bde8;
-        padding: 20px;
-	}
-
-	
-
-
-
-
-  
-    } //end of header 
-
-
-    header{
-    	img{
-    		width: 100px;
-            height: 100px;
-    		margin-left: 100px;
-            float: left;
-    	}
-    	li{
-    	 width: 100%;
-    	 display: inline;
-         color: white;
-         list-style-type:none;
-         padding-right:40px;
-         border-right: 1px solid #ffffff;
-
-    	}
-    	ul{
-    		float: right;
-    		color: white;
-            margin-top: 25px;
-
-    	}
-        a{
-            color: white;
-            list-style-type: none;
-            text-decoration: none;
-            font-size: 24px;
-            font-family: montseratt;
-            border-right: white;
-            border-size:5px;
-
-
-        }
-
-
-    } //end of header outside wrapper
     
     .imgbox{
-    	background-image:url(../img/grokpic.png);
-    	 background-repeat: no-repeat;
+        background-image:url(../img/pictest3.g);
+         background-repeat: cover;
          background-size: 100% 100%;
          margin: 0px;
          width: 100%;
          padding-top: 300px;
          padding-bottom: 25px;
-
-
-
-
-        
-    }
+       }
 
     .signup{
-    	background-color:#37bde8;
+        background-color:#37bde8;
         width:100%;
         margin-top: 25px;
 
-    	p{
-    		float: left;
+        p{
+            float: left;
             margin-right: 50px;
-    	}
-        form{
-            margin-top: 25px;
-    		
-    	}
-
+        }
     }
 
-.container{
-	display:block;
-	padding: 20px;
+    .sponsor{
+        width:100%;
+        display:block;
+        padding-bottom:50px;
 
 
-	img{
-		width: 40%;
-		float: left;
-	}
-
-	.div{
-		float: right;
-		width: 40%;
-	}
-
-}
-
-.sponsor{
-	width:100;
-	display:block;
-    padding-bottom:50px;
-
-
-	img{
-		max-width: 25%;
-        margin-right: 50px;
-        line-height: normal;
-	}
-
-
-.textimg p{
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}
+        img{
+ 
+            line-height: normal;
+        }
+    }
 
 .textimg h1{
   color: white;
-}
-
-.container div{
-    width: 50%;
-    float: right;
-}
-.container p{
-    font-size:24px;
-     font-family: 'Josefin Sans', sans-serif;
-     line-height: 50px;
 
 }
+
 .container h1{
     font-size: 32px;
-    color:black;
+    color:#37bde8;
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 
 }
 .signup p{
@@ -230,181 +384,268 @@
     margin-left: 50px;
 }
 
-.signup input{
-    margin-right: 35px;
-}
-
-
 
 .chimp{
     width: 25%;
 }
-.github{
-    width: 20%;
-}
-.imgdiv{
- background-image:url(../img/grockclassroom.jpg);
-    width: 40%;
-    background-repeat: no-repeat;
-         background-size: 100% 100%;
-         margin: 0px;
-         padding-top: 300px;
-         padding-bottom: 25px;
-         float: right;
-         margin-right:75px;
-}
-.textdiv{
-    width: 40%;
-    float: left;
-}
-.maindiv{
-    background-color:white;
-    width: 100%;
-    padding:20px;
 
 
-}
+
 .bodywrap{
     width: 100%;
     background-image:url(../img/grok2.jpg);
     background-repeat: no-repeat;
-background-size: 100% 100%;
-
-
-       //opacity: 0.1;
-     
-       height: 800px;
-      
-       //margin-left: -100px;
-       padding-top:400px;
-     
-
-       
-}
-
-.blue4{
-   
-    width: 75%;
- padding-top:35px;
-
-    padding-bottom:35px;
-    
-   
-    background-color: #9bdef3;
-    
-}
-
-.blue2{
-    margin-top:50px;
-    margin-bottom:50px;
-    background-color: #9bdef3;
-    width: 75%;
-}
-.blue2 h1{
-  text-align: center;
-
+    background-position: center center;
+    background-size: cover;
+    padding-top:20px;
 }
 
 
-
-
-.blue{
-    margin-top:50px;
-    margin-bottom:50px;
-    background-color: #9bdef3;
-    width: 75%;
-    padding-bottom:25px;
-}
-.blue3{
-    padding-top:35px;
-    
-    
-      background-color: #9bdef3;
-     width: 75%;
-     margin-bottom: 50px;
-
-    
-}
-.blue input{
-  display: inline-block;
-  width: 20%;
-  margin-left: 10px;
-
-}
-.blue p{
-    display: inline-block;
-    margin-right: 75px;
-}
-//additional///
-.tg-wrap{
-    padding-bottom:200px;
-    padding-top: 200px;
-    padding-left:200px;
-}
-.whitediv{
-    background-color:white;
-
-    width: 75%;
- 
-
-    padding-top:50px;
-    padding-bottom:150px;
-    margin-top: -300px;
-    margin-left: 250px;
-    padding-left:100px;
-
-    
-   }
-
-   .whitediv input{
-    
-    clear: both;
-    }
-
- .wrap{
-    width: 100%;
-    padding-left:50px;
-    clear: both;
-    //padding-right:50px;
-   }
-label{
-  display: inline-block;
-  width: 40%;
-  text-align: right;
-  font-size: 18px;
-  line-height: 20px;
-}
-label text{
-  text-align: right;
-  font-size:24px;
-}
-
-
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 100px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-yw4l{vertical-align:top}
 
 footer{
-	width:100%;
-	background-color:#37bde8;
+    width:100%;
+    background-color:#37bde8;
     padding: 40px;
 
-	img{
-		width: 200px;
+    img{
+        width: 90%;
+        max-width: 150px;
+      
+        margin-right: 0px;
+        margin-left:50px;
+        margin-bottom: 20px;
+       
+        
+    }
+
+}
+
+
+@media screen and (min-width: 600px) { 
+
+ .imgbox{
+        background-image:url(../img/grokspeakers.jpg);
+         background-repeat: cover;
+         background-size: 100% 100%;
+         margin: 0px;
+         width: 100%;
+         padding-top: 300px;
+         padding-bottom: 25px;
+       }
+
+
+
+.textimg h1{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+header li{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.signup p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+}
+
+.whitediv{
+    width: 60%;
+}
+
+.reg{
+
+    margin-top: 15px;
+}
+
+
+.register{
+    display: inline-block;
+ 
+}
+.name{
+    display: inline-block;
+    width: 20%;
+}
+
+.textimg{
+    margin-left: 100px;
+    width: 70%;
+    background-color:#444;
+  
+    p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        color: white;
+    }
+}
+
+.container{
+    width: 100%;
+    margin-top: 0px;
+    
+    padding-top:20px;
+    padding-bottom:20px;
+    
+
+
+
+    img{
+        width: 40%;
+        float: left;
+        max-width: 400px;
+       
+    } 
+    p{
+        line-height: 20px;
+    }
+
+
+
+    }
+    .container div{
+        float: right;
+        width: 50%;
+    }
+
+    .mobile{
+        width: 40%;
         height: 200px;
-        margin-right: 200px;
-        margin-left:0px;
-        padding-right:50px;
-        padding-left: 25px;
-	}
+        float: left;
+    }
+
+    .maindiv p{
+        width: 100%;
+      
+    }
+
+
+.schedule_text{
+    float: left;
+    width: 40%;
+    margin-left: 20px;
 
 }
 
+.mobile_schedule{
+    float: right;
+    width: 48%;
+    margin-right: 62px;
+    margin-left:0px;
+
+    li{
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+
 }
 
+.sponsor{
+    width: 100%;
+    padding:20px;
+    display: inline-block;
+
+ 
+
+    h2{
+
+        float: left;
+        width: 20%;
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+    img{
+        width: 18%;
+        margin-right:50px;
+        display: inline-block;
+    }
+}
+
+.word{
+    float: right;
+    width: 50%;
+
+    h1{
+        margin-top: -10px;
+    }
+}
+
+.textdiv{
+    display: block;
+ 
+}
+
+footer{
+    display: inline-block;
+
+    img{
+        width: 20%;
+        display: inline-block;
+        max-width: 200px;
+    }
+}
+.github{
+    margin-top: 10px;
+}
+.event{
+    width: 100%;
+    margin-left:36px;
+    color: #37bde8;
+}
+.container h1{
+    font-size: 32px;
+    color:#37bde8;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -10px;
+    text-align: left;
+}
+   
 
 
+
+header{
+    padding:0px;
+
+
+    
+
+    ul{
+        float: right;
+        margin: 0px 0 0 0;
+
+    }
+
+   }
+
+
+
+
+
+
+
+
+    }
+
+
+// @media screen and (min-width: 800px) {
+    
+//     .signup input{
+//         width: 25%;
+//         display: inline-block;
+//     }
+// }
 
 
 

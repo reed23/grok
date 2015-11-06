@@ -24,128 +24,73 @@
                         <li><a href="#">Register</a></li>
                     </ul>
                 </nav> <!--end of mainnav -->
-
-
             </header> <!--e -->
 
             <div class ="bodywrap">
-                <div class ="whitediv">
-                <div class="wrap">    
-                  <div class="blue">
-                    <p>First Nem</p>
-                    <p>Last Name</p>
-                    <p>Email Adress</p>
+                <div class="whitediv">
+                    <h2 class="grok">Register for Grok</h2>
 
-                    <form>
-                    <input type="text" name="fname">
-                     <input type="text" name="lname">
-                    <input type="text" name="lname">
-                    <input type="submit">
-                </form>
+                    <form id="registration_form" method="post" action=""> 
 
-              </div> <!--end of blut div-->
-               
-               <div class="blue2">
-                <h1>Billing Information</h1>
-                                
-                <label for"text">First Name</label> <input type="text" name="firstname">
-                <br><br>
-               
-                <label for"text">Last Name</label><input type="text" name="lastname">
-                <br><br>
-                   
-                                    
-                    <label for"text">Email Address</label><input type="text" name="firstname">
-                    <br><br>
-                 
-                     <label for"text">Address</label><input type="text" name="lastname">
-                    <br><br>
-                    <label for"text">City</label><input type="text" name="firstname">
-                    <br><br>
-                   <label for"text">State</label><input type="text" name="firstname">
-                    <br><br>
-                   
-               
-                                    
-                    <label for"text">Zip</label><input type="text" name="firstname">
-                    <br><br>
-                   
+                        <fieldset>
 
-              </div> <!--end of blut div-->
-              
+                            <h1>User Information: </h1>
+       
+                                <label for"firstname">First Name</label>
+                                <input type="text" name="firstname" id="firstname">
+                           
+                                <label for"lastname">Last Name</label>
+                                <input type="text" name="lastname" id="lastname">
+                               
+                                <label for"email">Email Address</label>
+                                <input type="text" name="email" id="email">
+                        </fieldset> <!--end of blut div-->
+                       
+                        <fieldset>
+                            <h1>Billing Information</h1>
+                         
+                            <label for"address">Address</label>
+                            <input type="text" name="address" id="address">
+                            
+                            <label for"city">City</label>
+                            <input type="text" name="city" class="city">
+                            
+                            <label for"state">State</label>
+                            <input type="text" name="state" id="state">
+                                      
+                            <label for"zip">Zip</label>
+                            <input type="text" name="zip" id="zip">
+                        </fieldset> <!--end of blut div-->
+                      
+                        <fieldset>
+                            <p>If you have a promotional code, enter it here: </p>
+                            <label for"code">Promotion Code</label>
+                            <input type="text" name="code" id="code">
+                        </fieldset>
+                            
+                        <fieldset>
+                            <label for"card_number">Credit Card Number</label>
+                            <input type="text" name="card_number" id="card_number">
 
-               <div class="blue3">
-                <p>
+                            <label for"expiration">Expiration Date</label>
+                            <input type="text" name="expiration" id="expiration">
+                        </fieldset> <!--end of blut div-->
 
-                If you have a promotional code, enter it here </p>
-               <label for"text">Promotion Code</label><input type="text" name="firstname"><br><br>
-           </div>
-                    
-               
-               <div class= "blue4">
-                <label for"text">Credit Card</label><input type="text" name="firstname">
-                    <br><br>
-                    <label for"text">Expiration Date</label><input type="text" name="firstname">
-                    <br><br>
-             
-              </div> <!--end of blut div-->
-          </div> <!--END OF DIV HOLDING -->
+                        <fieldset>
+                            <input type="sumbit" value="Submit">
+                        </fieldset>
 
-
-
-
-
+                    </form>
 
                 </div> <!--end of whtie div-->
+            </div> <!--end of bodywrap -->
+        </div> <!-- end wrapper -->
 
-
-
-
-
-            </div> <!--end of bodywrap 
-
-        -->
-    </div>
-
-
-
-
-
-
-
-        
-
-
-
-        
-            <footer>
-                <img src="img/logoiron.png">
-                <img src="img/tiy.png">
-                <img src="img/weirdlogo.png">
-
-
-
-
-
-
-            </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
-
+        <footer>
+            <img src="img/logoiron.png">
+            <img src="img/tiy.png">
+            <img src="img/weirdlogo.png">
+        </footer>
 
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="js/script.js"></script>

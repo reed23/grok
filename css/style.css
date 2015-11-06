@@ -16,19 +16,277 @@
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 17, ../scss/style.scss */
-.blue {
-  width: 500px;
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  /* line 19, ../scss/style.scss */
+  .imgbox {
+    display: none;
+  }
+}
+/* line 25, ../scss/style.scss */
+.container h1 {
+  margin-top: 0px;
 }
 
-/* line 23, ../scss/style.scss */
+/* line 29, ../scss/style.scss */
+header {
+  background-color: #37bde8;
+  padding: 20px;
+}
+/* line 33, ../scss/style.scss */
+header img {
+  width: 20%;
+  max-width: 100px;
+  margin: 0 auto;
+}
+/* line 38, ../scss/style.scss */
+header ul {
+  color: white;
+  display: block;
+  padding: 0;
+  margin: 25px 0 0 0;
+  list-style: none;
+}
+/* line 45, ../scss/style.scss */
+header li {
+  display: block;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+/* line 52, ../scss/style.scss */
+header a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 1.4em;
+  font-family: "Josefine sans-serif";
+  padding: 12px 20px;
+  text-align: center;
+}
+
+/* line 63, ../scss/style.scss */
+#registration_form {
+  padding: 20px;
+}
+/* line 67, ../scss/style.scss */
+#registration_form fieldset {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #9bdef3;
+  padding-bottom: 25px;
+  border: none;
+  border-radius: 15px;
+}
+/* line 76, ../scss/style.scss */
+#registration_form input {
+  display: block;
+  width: 96%;
+  padding: 10px 2%;
+  border: none;
+  border-radius: 5px;
+}
+/* line 84, ../scss/style.scss */
+#registration_form label {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  font-size: 1.2em;
+  line-height: 1.8;
+  display: block;
+}
+
+/* line 95, ../scss/style.scss */
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+/* line 103, ../scss/style.scss */
+.container {
+  width: 100%;
+}
+/* line 107, ../scss/style.scss */
+.container p {
+  font-size: 18px;
+  font-family: "Josefine sans-serif";
+}
+/* line 111, ../scss/style.scss */
+.container div {
+  width: 95%;
+  float: none;
+  padding: 10px;
+}
+
+/* line 119, ../scss/style.scss */
+.sponsor img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 125, ../scss/style.scss */
+.textdiv {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 132, ../scss/style.scss */
+.grok {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #37bde8;
+}
+
+/* line 140, ../scss/style.scss */
+.whitediv {
+  background-color: white;
+  width: 94%;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+/* line 148, ../scss/style.scss */
+.sponsor h2 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 50px;
+}
+
+/* line 157, ../scss/style.scss */
+.sponsor img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* line 163, ../scss/style.scss */
+.extra {
+  display: none;
+}
+
+/* line 170, ../scss/style.scss */
+.textdiv h3 {
+  display: none;
+}
+/* line 175, ../scss/style.scss */
+.textdiv h2 {
+  display: none;
+}
+
+/* line 180, ../scss/style.scss */
+.mobile {
+  width: 90%;
+  margin-left: 20px;
+  max-width: 400px;
+}
+
+/* line 186, ../scss/style.scss */
+.maindiv {
+  display: block;
+  width: 90%;
+}
+/* line 190, ../scss/style.scss */
+.maindiv p {
+  font-family: "Josefine sans-serif";
+  font-size: 18px;
+  width: 100%;
+}
+
+/* line 199, ../scss/style.scss */
 .register {
   background-color: #ffab56;
   color: white;
-  width: 200px;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
+.container img {
+  width: 90%;
+  display: block;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 218, ../scss/style.scss */
+.word {
+  font-family: "Josefine sans-serif";
+}
+/* line 221, ../scss/style.scss */
+.word h1 {
+  font-family: "Josefine sans-serif";
+  color: #37bde8;
+}
+/* line 228, ../scss/style.scss */
+.word p {
+  font-family: "Josefine sans-serif";
+}
+
+/* line 235, ../scss/style.scss */
+.whitediv h1 {
+  font-family: "Josefine sans-serif";
+  color: white;
+}
+
+/* line 243, ../scss/style.scss */
+.imgdiv {
+  display: none;
+  background-image: url(../img/grockclassroom.jpg);
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding-top: 300px;
+  padding-bottom: 25px;
+  float: right;
+  margin-right: 75px;
+}
+
+/* line 257, ../scss/style.scss */
+.schedule_text h1 {
+  font-family: "Josefine sans-serif";
+  text-align: center;
+  color: #37bde8;
+}
+/* line 263, ../scss/style.scss */
+.schedule_text p {
+  font-family: "Josefine sans-serif";
+  line-height: 25px;
+}
+
+/* line 270, ../scss/style.scss */
+.sched {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 277, ../scss/style.scss */
+.mobile_schedule {
+  display: block;
+  width: 100%;
+  margin-left: 25px;
+}
+/* line 282, ../scss/style.scss */
+.mobile_schedule li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-family: "Josefine sans-serif";
+}
+/* line 288, ../scss/style.scss */
+.mobile_schedule a {
+  font-family: "Josefine sans-serif";
+}
+/* line 292, ../scss/style.scss */
+.mobile_schedule h1 {
+  font-family: "Josefine sans-serif";
+  color: #37bde8;
+}
+
+/* line 300, ../scss/style.scss */
 .button1 {
   display: inline-block;
   width: 40%;
@@ -40,13 +298,13 @@
   text-decoration: none;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .button1:hover {
   background-color: #ffab56;
   color: #000;
 }
 
-/* line 49, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .button2 {
   display: inline-block;
   width: 40%;
@@ -59,64 +317,16 @@
   float: right;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .button2:hover {
   background-color: #ffab56;
   color: #000;
 }
 
-/* line 74, ../scss/style.scss */
-.textimg {
-  width: 42%;
-  margin-left: 500px;
-  margin-top: -300px;
-  position: center;
-}
-
-/* line 85, ../scss/style.scss */
-.wrapper header {
-  width: 100%;
-  background-color: #37bde8;
-  padding: 20px;
-}
-
-/* line 101, ../scss/style.scss */
-header img {
-  width: 100px;
-  height: 100px;
-  margin-left: 100px;
-  float: left;
-}
-/* line 107, ../scss/style.scss */
-header li {
-  width: 100%;
-  display: inline;
-  color: white;
-  list-style-type: none;
-  padding-right: 40px;
-  border-right: 1px solid #ffffff;
-}
-/* line 116, ../scss/style.scss */
-header ul {
-  float: right;
-  color: white;
-  margin-top: 25px;
-}
-/* line 122, ../scss/style.scss */
-header a {
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 24px;
-  font-family: montseratt;
-  border-right: white;
-  border-size: 5px;
-}
-
-/* line 137, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .imgbox {
-  background-image: url(../img/grokpic.png);
-  background-repeat: no-repeat;
+  background-image: url(../img/pictest3.g);
+  background-repeat: cover;
   background-size: 100% 100%;
   margin: 0px;
   width: 100%;
@@ -124,255 +334,281 @@ header a {
   padding-bottom: 25px;
 }
 
-/* line 152, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 .signup {
   background-color: #37bde8;
   width: 100%;
   margin-top: 25px;
 }
-/* line 157, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 .signup p {
   float: left;
   margin-right: 50px;
 }
-/* line 161, ../scss/style.scss */
-.signup form {
-  margin-top: 25px;
-}
 
-/* line 168, ../scss/style.scss */
-.container {
-  display: block;
-  padding: 20px;
-}
-/* line 173, ../scss/style.scss */
-.container img {
-  width: 40%;
-  float: left;
-}
-/* line 178, ../scss/style.scss */
-.container .div {
-  float: right;
-  width: 40%;
-}
-
-/* line 185, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .sponsor {
-  width: 100;
+  width: 100%;
   display: block;
   padding-bottom: 50px;
 }
-/* line 191, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 .sponsor img {
-  max-width: 25%;
-  margin-right: 50px;
   line-height: normal;
 }
-/* line 198, ../scss/style.scss */
-.sponsor .textimg p {
-  color: white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-}
-/* line 205, ../scss/style.scss */
-.sponsor .textimg h1 {
+
+/* line 367, ../scss/style.scss */
+.textimg h1 {
   color: white;
 }
-/* line 209, ../scss/style.scss */
-.sponsor .container div {
-  width: 50%;
-  float: right;
-}
-/* line 213, ../scss/style.scss */
-.sponsor .container p {
-  font-size: 24px;
-  font-family: 'Josefin Sans', sans-serif;
-  line-height: 50px;
-}
-/* line 219, ../scss/style.scss */
-.sponsor .container h1 {
+
+/* line 372, ../scss/style.scss */
+.container h1 {
   font-size: 32px;
-  color: black;
+  color: #37bde8;
   font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
-/* line 225, ../scss/style.scss */
-.sponsor .signup p {
+
+/* line 379, ../scss/style.scss */
+.signup p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: white;
   margin-left: 50px;
 }
-/* line 233, ../scss/style.scss */
-.sponsor .signup input {
-  margin-right: 35px;
-}
-/* line 239, ../scss/style.scss */
-.sponsor .chimp {
+
+/* line 388, ../scss/style.scss */
+.chimp {
   width: 25%;
 }
-/* line 242, ../scss/style.scss */
-.sponsor .github {
-  width: 20%;
-}
-/* line 245, ../scss/style.scss */
-.sponsor .imgdiv {
-  background-image: url(../img/grockclassroom.jpg);
-  width: 40%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 0px;
-  padding-top: 300px;
-  padding-bottom: 25px;
-  float: right;
-  margin-right: 75px;
-}
-/* line 256, ../scss/style.scss */
-.sponsor .textdiv {
-  width: 40%;
-  float: left;
-}
-/* line 260, ../scss/style.scss */
-.sponsor .maindiv {
-  background-color: white;
-  width: 100%;
-  padding: 20px;
-}
-/* line 267, ../scss/style.scss */
-.sponsor .bodywrap {
+
+/* line 394, ../scss/style.scss */
+.bodywrap {
   width: 100%;
   background-image: url(../img/grok2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 800px;
-  padding-top: 400px;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
 }
-/* line 285, ../scss/style.scss */
-.sponsor .blue4 {
-  width: 75%;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background-color: #9bdef3;
-}
-/* line 297, ../scss/style.scss */
-.sponsor .blue2 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #9bdef3;
-  width: 75%;
-}
-/* line 303, ../scss/style.scss */
-.sponsor .blue2 h1 {
-  text-align: center;
-}
-/* line 311, ../scss/style.scss */
-.sponsor .blue {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #9bdef3;
-  width: 75%;
-  padding-bottom: 25px;
-}
-/* line 318, ../scss/style.scss */
-.sponsor .blue3 {
-  padding-top: 35px;
-  background-color: #9bdef3;
-  width: 75%;
-  margin-bottom: 50px;
-}
-/* line 328, ../scss/style.scss */
-.sponsor .blue input {
-  display: inline-block;
-  width: 20%;
-  margin-left: 10px;
-}
-/* line 334, ../scss/style.scss */
-.sponsor .blue p {
-  display: inline-block;
-  margin-right: 75px;
-}
-/* line 339, ../scss/style.scss */
-.sponsor .tg-wrap {
-  padding-bottom: 200px;
-  padding-top: 200px;
-  padding-left: 200px;
-}
-/* line 344, ../scss/style.scss */
-.sponsor .whitediv {
-  background-color: white;
-  width: 75%;
-  padding-top: 50px;
-  padding-bottom: 150px;
-  margin-top: -300px;
-  margin-left: 250px;
-  padding-left: 100px;
-}
-/* line 359, ../scss/style.scss */
-.sponsor .whitediv input {
-  clear: both;
-}
-/* line 364, ../scss/style.scss */
-.sponsor .wrap {
-  width: 100%;
-  padding-left: 50px;
-  clear: both;
-}
-/* line 370, ../scss/style.scss */
-.sponsor label {
-  display: inline-block;
-  width: 40%;
-  text-align: right;
-  font-size: 18px;
-  line-height: 20px;
-}
-/* line 377, ../scss/style.scss */
-.sponsor label text {
-  text-align: right;
-  font-size: 24px;
-}
-/* line 383, ../scss/style.scss */
-.sponsor .tg {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/* line 384, ../scss/style.scss */
-.sponsor .tg td {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  padding: 10px 100px;
-  border-style: solid;
-  border-width: 1px;
-  overflow: hidden;
-  word-break: normal;
-}
-/* line 385, ../scss/style.scss */
-.sponsor .tg th {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  padding: 10px 5px;
-  border-style: solid;
-  border-width: 1px;
-  overflow: hidden;
-  word-break: normal;
-}
-/* line 386, ../scss/style.scss */
-.sponsor .tg .tg-yw4l {
-  vertical-align: top;
-}
-/* line 388, ../scss/style.scss */
-.sponsor footer {
+
+/* line 405, ../scss/style.scss */
+footer {
   width: 100%;
   background-color: #37bde8;
   padding: 40px;
 }
-/* line 393, ../scss/style.scss */
-.sponsor footer img {
-  width: 200px;
-  height: 200px;
-  margin-right: 200px;
-  margin-left: 0px;
-  padding-right: 50px;
-  padding-left: 25px;
+/* line 410, ../scss/style.scss */
+footer img {
+  width: 90%;
+  max-width: 150px;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 426, ../scss/style.scss */
+  .imgbox {
+    background-image: url(../img/grokspeakers.jpg);
+    background-repeat: cover;
+    background-size: 100% 100%;
+    margin: 0px;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 25px;
+  }
+
+  /* line 438, ../scss/style.scss */
+  .textimg h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /* line 447, ../scss/style.scss */
+  header li {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+  }
+
+  /* line 455, ../scss/style.scss */
+  .signup p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+  }
+
+  /* line 463, ../scss/style.scss */
+  .whitediv {
+    width: 60%;
+  }
+
+  /* line 467, ../scss/style.scss */
+  .reg {
+    margin-top: 15px;
+  }
+
+  /* line 473, ../scss/style.scss */
+  .register {
+    display: inline-block;
+  }
+
+  /* line 477, ../scss/style.scss */
+  .name {
+    display: inline-block;
+    width: 20%;
+  }
+
+  /* line 482, ../scss/style.scss */
+  .textimg {
+    margin-left: 100px;
+    width: 70%;
+    background-color: #444;
+  }
+  /* line 487, ../scss/style.scss */
+  .textimg p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: white;
+  }
+
+  /* line 494, ../scss/style.scss */
+  .container {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 504, ../scss/style.scss */
+  .container img {
+    width: 40%;
+    float: left;
+    max-width: 400px;
+  }
+  /* line 510, ../scss/style.scss */
+  .container p {
+    line-height: 20px;
+  }
+
+  /* line 517, ../scss/style.scss */
+  .container div {
+    float: right;
+    width: 50%;
+  }
+
+  /* line 522, ../scss/style.scss */
+  .mobile {
+    width: 40%;
+    height: 200px;
+    float: left;
+  }
+
+  /* line 528, ../scss/style.scss */
+  .maindiv p {
+    width: 100%;
+  }
+
+  /* line 534, ../scss/style.scss */
+  .schedule_text {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  /* line 541, ../scss/style.scss */
+  .mobile_schedule {
+    float: right;
+    width: 48%;
+    margin-right: 62px;
+    margin-left: 0px;
+  }
+  /* line 547, ../scss/style.scss */
+  .mobile_schedule li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+
+  /* line 554, ../scss/style.scss */
+  .sponsor {
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+  }
+  /* line 561, ../scss/style.scss */
+  .sponsor h2 {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  /* line 569, ../scss/style.scss */
+  .sponsor img {
+    width: 18%;
+    margin-right: 50px;
+    display: inline-block;
+  }
+
+  /* line 576, ../scss/style.scss */
+  .word {
+    float: right;
+    width: 50%;
+  }
+  /* line 580, ../scss/style.scss */
+  .word h1 {
+    margin-top: -10px;
+  }
+
+  /* line 585, ../scss/style.scss */
+  .textdiv {
+    display: block;
+  }
+
+  /* line 590, ../scss/style.scss */
+  footer {
+    display: inline-block;
+  }
+  /* line 593, ../scss/style.scss */
+  footer img {
+    width: 20%;
+    display: inline-block;
+    max-width: 200px;
+  }
+
+  /* line 599, ../scss/style.scss */
+  .github {
+    margin-top: 10px;
+  }
+
+  /* line 602, ../scss/style.scss */
+  .event {
+    width: 100%;
+    margin-left: 36px;
+    color: #37bde8;
+  }
+
+  /* line 607, ../scss/style.scss */
+  .container h1 {
+    font-size: 32px;
+    color: #37bde8;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -10px;
+    text-align: left;
+  }
+
+  /* line 618, ../scss/style.scss */
+  header {
+    padding: 0px;
+  }
+  /* line 624, ../scss/style.scss */
+  header ul {
+    float: right;
+    margin: 0px 0 0 0;
+  }
 }
